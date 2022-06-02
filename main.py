@@ -7,7 +7,6 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import requests
-import json
 from dataManager import DataManager, MOVIE_DB_IMAGE_URL, MOVIE_DB_INFO_URL, API_KEY
 
 app = Flask(__name__)
